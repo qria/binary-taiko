@@ -221,28 +221,14 @@ class SongSelect{
 			fromTutorial = false
 		}
 		
-		var songIdIndex = -1
-		if(fromTutorial){
-			this.selectedSong = this.songs.findIndex(song => song.action === fromTutorial)
-			this.playBgm(true)
-		}else{
-			if(songId){
-				songIdIndex = this.songs.findIndex(song => song.id === songId)
-				if(songIdIndex === -1){
-					this.clearHash()
-				}
-			}
-			if(songIdIndex !== -1){
-				this.selectedSong = songIdIndex
-			}else if(assets.customSongs){
-				this.selectedSong = assets.customSelected
-			}else if((!p2.session || fadeIn) && "selectedSong" in localStorage){
-				this.selectedSong = Math.min(Math.max(0, localStorage["selectedSong"] |0), this.songs.length - 1)
-			}
-			assets.sounds[songIdIndex !== -1 ? "v_diffsel" : "v_songsel"].play()
-			snd.musicGain.fadeOut()
-			this.playBgm(false)
-		}
+		// Set song to abc
+		var songIdIndex = this.songs.findIndex(song => song.id === 1)
+		this.selectedSong = songIdIndex
+		assets.sounds[songIdIndex !== -1 ? "v_diffsel" : "v_songsel"].play()
+		snd.musicGain.fadeOut()
+		this.playBgm(true)
+
+		
 		if("selectedDiff" in localStorage){
 			this.selectedDiff = Math.min(Math.max(0, localStorage["selectedDiff"] |0), this.diffOptions.length + 3)
 		}
