@@ -6,5 +6,5 @@
       "version":"19.04.03"
    },
    "assets_baseurl":"https://s3-ap-northeast-1.amazonaws.com/binary-taiko/",
-   "songs_baseurl":"https://binary.qria.net/songs/"
+   "songs_baseurl":"https://s3-ap-northeast-1.amazonaws.com/binary-taiko/songs/"
 }
