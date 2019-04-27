@@ -5,6 +5,6 @@
       "url":"https://github.com/qria/binary-taiko/",
       "version":"19.04.03"
    },
-   "assets_baseurl":"http://binary.qria.net/assets/",
-   "songs_baseurl":"http://binary.qria.net/songs/"
+   "assets_baseurl":"https://binary.qria.net/assets/",
+   "songs_baseurl":"https://binary.qria.net/songs/"
 }
