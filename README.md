@@ -1,9 +1,17 @@
-# taiko-web
-A web-based Taiko no Tatsujin simulator.
+# Binary Taiko
 
-Running instance: [https://taiko.bui.pm](https://taiko.bui.pm)
+Play at: https://binary.qria.net
 
-Still in development. Works best with Chrome.
+Taiko-no-tatsujin clone that can play only one song - The ABC song.
 
-## Setup
-Please see the [Setup](https://github.com/bui/taiko-web/wiki/Setup) page for setup instructions.
+Also the pattern is modified to sequence of binary numbers.
+
+Original taiko-no-tatsujin clone by [bui] and [taiko-web] contributers.
+
+Made for [upnl].
+
+[bui]: https://github.com/bui/
+
+[taiko-web]:https://github.com/bui/taiko-web
+
+[upnl]: https://upnl.org

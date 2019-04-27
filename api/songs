@@ -1,0 +1,22 @@
+[
+   {
+      "category":"\u30ca\u30e0\u30b3\u30aa\u30ea\u30b8\u30ca\u30eb",
+      "id":1,
+      "offset":null,
+      "preview":0,
+      "song_skin":null,
+      "stars":[
+         null,
+         null,
+         6,
+         null,
+         null
+      ],
+      "subtitle":null,
+      "subtitle_lang":null,
+      "title":"\u97f3\u7b26\u306e\u3046\u305f",
+      "title_lang":"The ABC Song",
+      "type":"osu",
+      "volume":null
+   }
+]

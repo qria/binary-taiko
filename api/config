@@ -1,0 +1,10 @@
+{
+   "_version":{
+      "commit":"7411022b14f108cb241c5771cb2aad6a88ac659c",
+      "commit_short":"7411022x",
+      "url":"https://github.com/qria/binary-taiko/",
+      "version":"19.04.03"
+   },
+   "assets_baseurl":"https://binary.qria.net/assets/",
+   "songs_baseurl":"https://binary.qria.net/songs/"
+}
