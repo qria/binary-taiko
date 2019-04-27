@@ -1,3 +1,7 @@
+---
+permalink: /index.html
+---
+
 # Binary Taiko
 
 Play at: https://binary.qria.net
